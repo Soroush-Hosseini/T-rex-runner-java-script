@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>T-rex Runner java-script projrct</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./font/PixelEmulator.ttf">
+    <link rel="icon" href="./image/t rex.png" type="./image/t rex.png">
+    
+   
+</head>
+<body>
+    <div id="game-screen">
+        <div id="sky"></div>
+        
+        <div id="player">
+            <img src="image/t rex.png" id="player-image">
+        </div>
+
+        <div id="street"></div>
+
+        <div id="canvas">
+            <div class="score">
+                <span id="score">00000</span>
+            </div>
+            <div id="gameover-tab">
+                <img src="image/GameOver.png">
+                <button id="replay" onclick="reset()"></button>
+            </div>
+        </div>
+    </div>
+
+    <section class="text">
+        <div>
+        <h1>No internet</h1>
+    <br>
+    Try:
+    <ul>
+        <br>
+    <li>Checking the network cables, modem, and router</li>
+<br>
+    <li>Reconnecting to Wi-Fi</li>
+ <br>
+    <li><a href="#">Running Windows Network Diagnostics</a></li>
+ <br>
+    </ul>
+    <br>
+   <h5> ERR_INTERNET_DISCONNECTED</h5>
+</div>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>
